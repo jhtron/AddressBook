@@ -24,6 +24,8 @@ struct contact_record {
 /**********************************************************************/
 int main() {
 
+    CONTACT_RECORD *p_contact_list; /* Linked list of contact records */
+    int temp_contact_id;            /* Unsorted contact id            */
 
     return QUIT;
 }
